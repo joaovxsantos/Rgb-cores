@@ -25,12 +25,63 @@ body {
   justify-content: space-around;
 }
 
+.rgb-card p {
+  padding: 1rem;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: 0.5 all;
+}
+
+.rgb-card #p1 {
+  background-color: red;
+}
+
+.rgb-card #p2 {
+  background-color: green;
+}
+
+.rgb-card #p3 {
+  background-color: blue;
+}
+
 .input-card input {
   padding: 1rem;
   margin-top: 1rem;
   border-radius: 10px;
-  transition: 0.5 all;
   text-align: center;
+  transition: 0.1s all;
+  background: transparent;
+}
+
+.input-card #input1 {
+  box-shadow: 0 0 40px 40px #f02005 inset;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.input-card #input1:focus {
+  box-shadow: 0 0 10px 0 #f02005 inset, 0 0 10px 4px #f02005;
+}
+
+.input-card #input2 {
+  box-shadow: 0 0 40px 40px green inset;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.input-card #input2:focus {
+  box-shadow: 0 0 10px 0 green inset, 0 0 10px 4px green;
+}
+
+.input-card #input3 {
+  box-shadow: 0 0 40px 40px blue inset;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.input-card #input3:focus {
+  box-shadow: 0 0 10px 0 blue inset, 0 0 10px 4px blue;
 }
 
 .color-card {
@@ -39,4 +90,5 @@ body {
   width: 300px;
   height: 300px;
   background: rgb(255, 255, 255);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
