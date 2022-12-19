@@ -108,18 +108,17 @@ input::-webkit-inner-spin-button {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
-
 /* MEDIA QUERIES PARA RESPONSIVIDADE EM DISPOSITIVOS*/
 
-@media (max-width:820px), (max-width: 485px){
-    .input-card{
-      display: flex;
-      flex-direction: column;
-    }
+@media (max-width: 820px), (max-width: 485px) {
+  .input-card {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .color-card{
-      width: 200px;
-      height: 200px;
-      margin-top: 2rem;
-    }
+  .color-card {
+    width: 200px;
+    height: 200px;
+    margin-top: 2rem;
+  }
 }
