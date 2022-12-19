@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+body {
+  background: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.rgb-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.input-card input{
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+    transition: 0.5 all;
+    
+}
+
+
+
+
